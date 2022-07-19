@@ -1,0 +1,19 @@
+.botonComprar{
+    @extend .botonBasico;
+    background-color: $colorSecundario
+}
+
+.botonIndex{
+    @extend .botonBasico;
+    background-color:#d7731e
+}
+
+.botonEnviar{
+    @extend .botonBasico;
+    background-color: rgb(147, 205, 111);
+}
+.carrito{
+    @extend .botonBasico;
+    background-color: rgba(238, 143, 48, 0.732);
+   
+}

@@ -1,0 +1,50 @@
+
+.navlogo{
+    font-family: 'Cinzel', serif;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    .bold{
+        font-weight: bold;
+        color: rgb(40, 79, 67); 
+    }
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color :#191919;
+    color: white;
+    text-align: center;
+    justify-content: space-evenly;
+
+    ul {
+        display: flex;
+        list-style: none;
+
+        li {
+            margin-top: 16px;
+
+            a {
+                text-decoration: none;
+                flex-direction: row;
+                padding: 0 5rem;
+                font-size: 20px;
+                color: white;
+                padding: 16px 12px 18px 12px;
+                &:hover {
+                    color: rgb(129, 201, 129);
+                }
+            }
+        }
+
+    }
+}
+
+
+
+
+
+   

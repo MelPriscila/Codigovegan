@@ -1,0 +1,53 @@
+.bannertext{
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+    padding: 8rem;
+    .titulobanner{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+}
+.banner-img{
+    @media only screen and (min-width: 480px) {
+       width: 100%;
+}
+}
+
+.loveanimals {
+   display: block;
+   text-align: center;
+    margin-top: 3rem;
+    background-color: #e5f0f942;
+    .radius {
+    @include radius;
+    }
+    .titulodos {
+        font-family: 'Cinzel', serif;
+        p{
+            margin: 8px;
+        }
+    }
+}
+.containerauto {
+    margin: auto;
+    font-weight: 14px;
+}
+.mundoespecies{
+    text-align: center;
+    @include borde;
+    background-color: rgba(238, 143, 48, 0.732);
+}
+.entregasIndex{
+    display: flex;
+    justify-content: space-around;
+    background: #a7d78f6b;
+    border: 4px solid #aee1b0;
+    width: 1000px;
+    text-align: center;
+    @include borde;
+    
+}
+
+

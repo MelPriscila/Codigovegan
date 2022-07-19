@@ -1,0 +1,22 @@
+.botonComprar{
+    @extend .boton;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-primary{
+    @extend .boton;
+    padding: 4px 10px;
+    background-color: rgb(158, 201, 158);
+    border-color: rgb(158, 201, 158); ;
+    
+}
+.botonEnviar{
+  padding: 9px;
+  background-color: rgb(205, 226, 180);
+}
+
+.carrito{
+  @extend .boton;
+}

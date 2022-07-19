@@ -1,0 +1,14 @@
+.nosotros{
+    display: flex;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 18px;
+    .radius{
+        @include borde;
+    }
+    
+    
+}
+.carousel{
+    width: 800px;
+}

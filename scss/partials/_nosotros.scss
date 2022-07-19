@@ -1,0 +1,20 @@
+.nosotros {
+    background-color: rgb(158, 201, 158);
+    font-family: 'Poppins';
+    width: 60%;
+    margin: auto;
+    @include borde;
+
+    .titulonosotros {
+        text-align: center;
+        font-size: 30px;
+
+        .costado {
+            color: rgb(0, 0, 0);
+            font-weight: bolder;
+            font-style: italic;
+            margin-bottom: 1.8em;
+            text-align: justify
+        }
+    }
+}
