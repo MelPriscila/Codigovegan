@@ -88,7 +88,7 @@ a {
 
 
 /* Main */
-@media (min-width: 576x) {
+@media (min-width: 360px) {
     .contenidoInicio{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -140,7 +140,7 @@ footer{
 .productos{
     background-color: rgb(159, 208, 114);
     border-radius: 2rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
     overflow:hidden;
     background: rgb(182, 217, 179);
     box-shadow:0px 1px 10px rgba(0,0,0,0.2) ;
@@ -182,7 +182,7 @@ button:hover{
     padding: 20px;
     margin-top: 1rem;
 }
-@media (min-width: 768px) {
+@media (min-width:  360px) {
     .formularioInput {
         width: 50%;
     }
